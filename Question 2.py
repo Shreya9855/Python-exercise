@@ -1,0 +1,11 @@
+#Write a program which can compute the factorial of a given numbers.The results should be printed in a comma-separated sequence on a single line
+
+num = int(input("Enter the number "))
+fact = 1
+for i in range(1,num + 1):
+    if (num <= 1):
+        print(1)
+    else:
+        fact = fact * i
+print(fact)
+        
